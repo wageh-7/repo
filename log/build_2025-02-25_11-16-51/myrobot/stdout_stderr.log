@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/myrobot/myrobot.egg-info
+writing ../../build/myrobot/myrobot.egg-info/PKG-INFO
+writing dependency_links to ../../build/myrobot/myrobot.egg-info/dependency_links.txt
+writing entry points to ../../build/myrobot/myrobot.egg-info/entry_points.txt
+writing requirements to ../../build/myrobot/myrobot.egg-info/requires.txt
+writing top-level names to ../../build/myrobot/myrobot.egg-info/top_level.txt
+writing manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+reading manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+writing manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wageh/repo/build/myrobot/build
+creating /home/wageh/repo/build/myrobot/build/lib
+creating /home/wageh/repo/build/myrobot/build/lib/myrobot
+copying myrobot/__init__.py -> /home/wageh/repo/build/myrobot/build/lib/myrobot
+running install
+running install_lib
+creating /home/wageh/repo/install/myrobot/lib/python3.10/site-packages/myrobot
+copying /home/wageh/repo/build/myrobot/build/lib/myrobot/__init__.py -> /home/wageh/repo/install/myrobot/lib/python3.10/site-packages/myrobot
+byte-compiling /home/wageh/repo/install/myrobot/lib/python3.10/site-packages/myrobot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wageh/repo/install/myrobot/share/ament_index
+creating /home/wageh/repo/install/myrobot/share/ament_index/resource_index
+creating /home/wageh/repo/install/myrobot/share/ament_index/resource_index/packages
+copying resource/myrobot -> /home/wageh/repo/install/myrobot/share/ament_index/resource_index/packages
+copying package.xml -> /home/wageh/repo/install/myrobot/share/myrobot
+running install_egg_info
+Copying ../../build/myrobot/myrobot.egg-info to /home/wageh/repo/install/myrobot/lib/python3.10/site-packages/myrobot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/wageh/repo/build/myrobot/install.log'

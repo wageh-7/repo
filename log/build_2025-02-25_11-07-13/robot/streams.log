@@ -1,0 +1,33 @@
+[0.377s] Invoking command in '/home/wageh/repo/src/robot': PYTHONPATH=/home/wageh/repo/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wageh/repo/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/wageh/repo/build/robot/build install --record /home/wageh/repo/build/robot/install.log --single-version-externally-managed install_data
+[0.518s] running egg_info
+[0.519s] creating ../../build/robot/robot.egg-info
+[0.519s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[0.519s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[0.519s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[0.519s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[0.519s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[0.519s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.520s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.520s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.520s] running build
+[0.520s] running build_py
+[0.520s] creating /home/wageh/repo/build/robot/build
+[0.520s] creating /home/wageh/repo/build/robot/build/lib
+[0.520s] creating /home/wageh/repo/build/robot/build/lib/robot
+[0.520s] copying robot/__init__.py -> /home/wageh/repo/build/robot/build/lib/robot
+[0.521s] running install
+[0.521s] running install_lib
+[0.521s] creating /home/wageh/repo/install/robot/lib/python3.10/site-packages/robot
+[0.521s] copying /home/wageh/repo/build/robot/build/lib/robot/__init__.py -> /home/wageh/repo/install/robot/lib/python3.10/site-packages/robot
+[0.521s] byte-compiling /home/wageh/repo/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc
+[0.521s] running install_data
+[0.521s] creating /home/wageh/repo/install/robot/share/ament_index
+[0.521s] creating /home/wageh/repo/install/robot/share/ament_index/resource_index
+[0.521s] creating /home/wageh/repo/install/robot/share/ament_index/resource_index/packages
+[0.521s] copying resource/robot -> /home/wageh/repo/install/robot/share/ament_index/resource_index/packages
+[0.521s] copying package.xml -> /home/wageh/repo/install/robot/share/robot
+[0.521s] running install_egg_info
+[0.522s] Copying ../../build/robot/robot.egg-info to /home/wageh/repo/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[0.523s] running install_scripts
+[0.535s] writing list of installed files to '/home/wageh/repo/build/robot/install.log'
+[0.551s] Invoked command in '/home/wageh/repo/src/robot' returned '0': PYTHONPATH=/home/wageh/repo/build/robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wageh/repo/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot build --build-base /home/wageh/repo/build/robot/build install --record /home/wageh/repo/build/robot/install.log --single-version-externally-managed install_data

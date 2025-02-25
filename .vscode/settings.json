@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/wageh/repo/install/robot/lib/python3.10/site-packages",
+        "/home/wageh/repo/install/myrobot/lib/python3.10/site-packages",
+        "/home/wageh/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/wageh/repo/install/robot/lib/python3.10/site-packages",
+        "/home/wageh/repo/install/myrobot/lib/python3.10/site-packages",
+        "/home/wageh/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Assem1">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0262600175323087 0.0205990903034334 -0.0250318418057986"
+        rpy="0 0 0" />
+      <mass
+        value="69.7730199307781" />
+      <inertia
+        ixx="1.68522996892855"
+        ixy="5.97080928296804E-17"
+        ixz="2.31084705226761E-16"
+        iyy="4.29869582705487"
+        iyz="-2.98111657658923E-18"
+        izz="3.07671663220099" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="lider">
+    <inertial>
+      <origin
+        xyz="5.55111512312578E-17 0 0.00584624129600686"
+        rpy="0 0 0" />
+      <mass
+        value="0.0663221625099341" />
+      <inertia
+        ixx="1.67516345884653E-05"
+        ixy="-4.6410346901642E-22"
+        ixz="-7.81376979581962E-23"
+        iyy="1.67516345884653E-05"
+        iyz="-1.28593575828615E-22"
+        izz="2.13804528084009E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/lider.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/lider.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fixed2"
+    type="fixed">
+    <origin
+      xyz="-0.29675 0.025881 0.12982"
+      rpy="0 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="lider" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="camera">
+    <inertial>
+      <origin
+        xyz="-0.0140979329098563 -0.00010714159487684 0.000125975069926718"
+        rpy="0 0 0" />
+      <mass
+        value="0.0442610031818635" />
+      <inertia
+        ixx="5.78657786510939E-05"
+        ixy="-1.9877113406294E-08"
+        ixz="-2.70700189278751E-08"
+        iyy="3.82453075888933E-06"
+        iyz="1.95345001437617E-08"
+        izz="5.48822484084664E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/camera.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/camera.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fixed1"
+    type="fixed">
+    <origin
+      xyz="-0.34964 0.025795 0.10936"
+      rpy="0 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="camera" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="tire1">
+    <inertial>
+      <origin
+        xyz="-4.77962771797125E-06 -5.08229193769971E-06 -0.000493852908781567"
+        rpy="0 0 0" />
+      <mass
+        value="1.21020265339321" />
+      <inertia
+        ixx="0.00234032407514317"
+        ixy="2.10977653273689E-08"
+        ixz="-3.32633850155205E-07"
+        iyy="0.00234032666756292"
+        iyz="-3.53697491646658E-07"
+        izz="0.00398998833058309" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/tire1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/tire1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shaft1"
+    type="continuous">
+    <origin
+      xyz="-0.21524 0.31103 -0.066182"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="tire1" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="tire2">
+    <inertial>
+      <origin
+        xyz="5.74075823156495E-06 -3.96462197299607E-06 -0.000493852908781567"
+        rpy="0 0 0" />
+      <mass
+        value="1.21020265339321" />
+      <inertia
+        ixx="0.00234033285721159"
+        ixy="-1.97675942839872E-08"
+        ixz="3.99522855348127E-07"
+        iyy="0.00234031788549451"
+        iyz="-2.75914265525859E-07"
+        izz="0.00398998833058309" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/tire2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/tire2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shaft2"
+    type="continuous">
+    <origin
+      xyz="0.26776 0.31103 -0.066182"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="tire2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="tire3">
+    <inertial>
+      <origin
+        xyz="6.14638628318454E-06 -3.30097987269462E-06 0.000493852908781622"
+        rpy="0 0 0" />
+      <mass
+        value="1.21020265339321" />
+      <inertia
+        ixx="0.00234033704503444"
+        ixy="-1.76216067569403E-08"
+        ixz="-4.27752171208182E-07"
+        iyy="0.00234031369767166"
+        iyz="2.29728696276778E-07"
+        izz="0.00398998833058309" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/tire3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/tire3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shaft3"
+    type="continuous">
+    <origin
+      xyz="-0.21524 -0.26097 -0.066182"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="tire3" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="tire4">
+    <inertial>
+      <origin
+        xyz="-4.55379208896822E-06 -5.28559458082278E-06 0.000493852908781622"
+        rpy="0 0 0" />
+      <mass
+        value="1.21020265339321" />
+      <inertia
+        ixx="0.00234032224444799"
+        ixy="2.09049832967625E-08"
+        ixz="3.16917024659571E-07"
+        iyy="0.0023403284982581"
+        iyz="3.67846154454689E-07"
+        izz="0.00398998833058308" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/tire4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://myrobot/meshes/visual/tire4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shaft4"
+    type="continuous">
+    <origin
+      xyz="0.26776 -0.26097 -0.066182"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="tire4" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+</robot>
