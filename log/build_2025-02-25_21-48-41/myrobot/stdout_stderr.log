@@ -1,0 +1,44 @@
+running develop
+Removing /home/men3m/repo/install/myrobot/lib/python3.10/site-packages/myrobot.egg-link (link to .)
+running egg_info
+writing ../../build/myrobot/myrobot.egg-info/PKG-INFO
+writing dependency_links to ../../build/myrobot/myrobot.egg-info/dependency_links.txt
+writing entry points to ../../build/myrobot/myrobot.egg-info/entry_points.txt
+writing requirements to ../../build/myrobot/myrobot.egg-info/requires.txt
+writing top-level names to ../../build/myrobot/myrobot.egg-info/top_level.txt
+reading manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+writing manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/men3m/repo/install/myrobot/lib/python3.10/site-packages/myrobot
+copying /home/men3m/repo/build/myrobot/build/lib/myrobot/__init__.py -> /home/men3m/repo/install/myrobot/lib/python3.10/site-packages/myrobot
+byte-compiling /home/men3m/repo/install/myrobot/lib/python3.10/site-packages/myrobot/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/myrobot -> /home/men3m/repo/install/myrobot/share/ament_index/resource_index/packages
+copying package.xml -> /home/men3m/repo/install/myrobot/share/myrobot
+copying launch/gz_simulator_launch.py -> /home/men3m/repo/install/myrobot/share/myrobot
+copying launch/launch.py -> /home/men3m/repo/install/myrobot/share/myrobot
+copying urdf/Assem1.urdf -> /home/men3m/repo/install/myrobot/share/myrobot/urdf/
+copying urdf/robot.sdf -> /home/men3m/repo/install/myrobot/share/myrobot/urdf/
+copying world/depot.sdf -> /home/men3m/repo/install/myrobot/share/myrobot/world/
+copying meshes/collision/lider.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+copying meshes/collision/tire4.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+copying meshes/collision/base_link.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+copying meshes/collision/tire3.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+copying meshes/collision/tire2.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+copying meshes/collision/camera.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+copying meshes/collision/tire1.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+copying meshes/visual/lider.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+copying meshes/visual/tire4.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+copying meshes/visual/base_link.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+copying meshes/visual/tire3.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+copying meshes/visual/tire2.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+copying meshes/visual/camera.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+copying meshes/visual/tire1.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+copying config/gz_bridge.yaml -> /home/men3m/repo/install/myrobot/share/myrobot/config/
+running install_egg_info
+Copying ../../build/myrobot/myrobot.egg-info to /home/men3m/repo/install/myrobot/lib/python3.10/site-packages/myrobot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/men3m/repo/build/myrobot/install.log'

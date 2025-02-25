@@ -1,0 +1,38 @@
+[0.645s] Invoking command in '/home/men3m/repo/build/myrobot': PYTHONPATH=/home/men3m/repo/build/myrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/repo/install/myrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/men3m/repo/build/myrobot/build --no-deps symlink_data --force
+[0.893s] running develop
+[1.046s] running egg_info
+[1.047s] writing myrobot.egg-info/PKG-INFO
+[1.047s] writing dependency_links to myrobot.egg-info/dependency_links.txt
+[1.047s] writing entry points to myrobot.egg-info/entry_points.txt
+[1.047s] writing requirements to myrobot.egg-info/requires.txt
+[1.047s] writing top-level names to myrobot.egg-info/top_level.txt
+[1.049s] reading manifest file 'myrobot.egg-info/SOURCES.txt'
+[1.050s] writing manifest file 'myrobot.egg-info/SOURCES.txt'
+[1.083s] running build_ext
+[1.083s] Creating /home/men3m/repo/install/myrobot/lib/python3.10/site-packages/myrobot.egg-link (link to .)
+[1.083s] 
+[1.084s] Installed /home/men3m/repo/build/myrobot
+[1.084s] running symlink_data
+[1.084s] symbolically linking /home/men3m/repo/build/myrobot/resource/myrobot -> /home/men3m/repo/install/myrobot/share/ament_index/resource_index/packages
+[1.084s] symbolically linking /home/men3m/repo/build/myrobot/package.xml -> /home/men3m/repo/install/myrobot/share/myrobot
+[1.084s] symbolically linking /home/men3m/repo/build/myrobot/launch/gz_simulator_launch.py -> /home/men3m/repo/install/myrobot/share/myrobot
+[1.084s] symbolically linking /home/men3m/repo/build/myrobot/launch/launch.py -> /home/men3m/repo/install/myrobot/share/myrobot
+[1.084s] symbolically linking /home/men3m/repo/build/myrobot/urdf/Assem1.urdf -> /home/men3m/repo/install/myrobot/share/myrobot/urdf/
+[1.084s] symbolically linking /home/men3m/repo/build/myrobot/urdf/robot.sdf -> /home/men3m/repo/install/myrobot/share/myrobot/urdf/
+[1.084s] symbolically linking /home/men3m/repo/build/myrobot/world/depot.sdf -> /home/men3m/repo/install/myrobot/share/myrobot/world/
+[1.084s] symbolically linking /home/men3m/repo/build/myrobot/meshes/collision/lider.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[1.085s] symbolically linking /home/men3m/repo/build/myrobot/meshes/collision/tire4.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[1.085s] symbolically linking /home/men3m/repo/build/myrobot/meshes/collision/base_link.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[1.085s] symbolically linking /home/men3m/repo/build/myrobot/meshes/collision/tire3.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[1.085s] symbolically linking /home/men3m/repo/build/myrobot/meshes/collision/tire2.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[1.085s] symbolically linking /home/men3m/repo/build/myrobot/meshes/collision/camera.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[1.085s] symbolically linking /home/men3m/repo/build/myrobot/meshes/collision/tire1.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[1.085s] symbolically linking /home/men3m/repo/build/myrobot/meshes/visual/lider.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[1.086s] symbolically linking /home/men3m/repo/build/myrobot/meshes/visual/tire4.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[1.086s] symbolically linking /home/men3m/repo/build/myrobot/meshes/visual/base_link.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[1.086s] symbolically linking /home/men3m/repo/build/myrobot/meshes/visual/tire3.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[1.086s] symbolically linking /home/men3m/repo/build/myrobot/meshes/visual/tire2.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[1.086s] symbolically linking /home/men3m/repo/build/myrobot/meshes/visual/camera.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[1.086s] symbolically linking /home/men3m/repo/build/myrobot/meshes/visual/tire1.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[1.086s] symbolically linking /home/men3m/repo/build/myrobot/config/gz_bridge.yaml -> /home/men3m/repo/install/myrobot/share/myrobot/config/
+[1.131s] Invoked command in '/home/men3m/repo/build/myrobot' returned '0': PYTHONPATH=/home/men3m/repo/build/myrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/repo/install/myrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/men3m/repo/build/myrobot/build --no-deps symlink_data --force

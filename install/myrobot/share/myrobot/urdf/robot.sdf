@@ -1,0 +1,330 @@
+<sdf version="1.7">
+  <model name="Assem1">
+    <link name="base_link">
+      <inertial>
+        <pose>0.02626 0.020599 -0.025032 0 -0 0</pose>
+        <mass>69.773</mass>
+        <inertia>
+          <ixx>1.68523</ixx>
+          <ixy>5.97081e-17</ixy>
+          <ixz>2.31085e-16</ixz>
+          <iyy>4.2987</iyy>
+          <iyz>-2.98112e-18</iyz>
+          <izz>3.07672</izz>
+        </inertia>
+      </inertial>
+      <collision name="base_link_collision">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="base_link_visual">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/base_link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name="fixed1" type="fixed">
+      <pose relative_to="base_link">-0.34964 0.025795 0.10936 0 0 -3.14159</pose>
+      <parent>base_link</parent>
+      <child>camera</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name="camera">
+      <pose relative_to="fixed1">0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.014098 -0.000107 0.000126 0 -0 0</pose>
+        <mass>0.044261</mass>
+        <inertia>
+          <ixx>5.78658e-05</ixx>
+          <ixy>-1.98771e-08</ixy>
+          <ixz>-2.707e-08</ixz>
+          <iyy>3.82453e-06</iyy>
+          <iyz>1.95345e-08</iyz>
+          <izz>5.48822e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name="camera_collision">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/camera.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="camera_visual">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/camera.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name="fixed2" type="fixed">
+      <pose relative_to="base_link">-0.29675 0.025881 0.12982 0 0 -3.14159</pose>
+      <parent>base_link</parent>
+      <child>lider</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name="lider">
+      <pose relative_to="fixed2">0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 0.005846 0 -0 0</pose>
+        <mass>0.0663222</mass>
+        <inertia>
+          <ixx>1.67516e-05</ixx>
+          <ixy>-4.64103e-22</ixy>
+          <ixz>-7.81377e-23</ixz>
+          <iyy>1.67516e-05</iyy>
+          <iyz>-1.28594e-22</iyz>
+          <izz>2.13805e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name="lider_collision">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/lider.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="lider_visual">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/lider.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name="shaft1" type="revolute">
+      <pose relative_to="base_link">-0.21524 0.31103 -0.066182 1.5708 -0 -3.14159</pose>
+      <parent>base_link</parent>
+      <child>tire1</child>
+      <axis>
+        <xyz>0 0 -1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name="tire1">
+      <pose relative_to="shaft1">0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-5e-06 -5e-06 -0.000494 0 -0 0</pose>
+        <mass>1.2102</mass>
+        <inertia>
+          <ixx>0.00234032</ixx>
+          <ixy>2.10978e-08</ixy>
+          <ixz>-3.32634e-07</ixz>
+          <iyy>0.00234033</iyy>
+          <iyz>-3.53697e-07</iyz>
+          <izz>0.00398999</izz>
+        </inertia>
+      </inertial>
+      <collision name="tire1_collision">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/tire1.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="tire1_visual">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/tire1.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name="shaft2" type="revolute">
+      <pose relative_to="base_link">0.26776 0.31103 -0.066182 1.5708 -0 -3.14159</pose>
+      <parent>base_link</parent>
+      <child>tire2</child>
+      <axis>
+        <xyz>0 0 -1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name="tire2">
+      <pose relative_to="shaft2">0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>6e-06 -4e-06 -0.000494 0 -0 0</pose>
+        <mass>1.2102</mass>
+        <inertia>
+          <ixx>0.00234033</ixx>
+          <ixy>-1.97676e-08</ixy>
+          <ixz>3.99523e-07</ixz>
+          <iyy>0.00234032</iyy>
+          <iyz>-2.75914e-07</iyz>
+          <izz>0.00398999</izz>
+        </inertia>
+      </inertial>
+      <collision name="tire2_collision">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/tire2.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="tire2_visual">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/tire2.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name="shaft3" type="revolute">
+      <pose relative_to="base_link">-0.21524 -0.26097 -0.066182 1.5708 -0 -3.14159</pose>
+      <parent>base_link</parent>
+      <child>tire3</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name="tire3">
+      <pose relative_to="shaft3">0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>6e-06 -3e-06 0.000494 0 -0 0</pose>
+        <mass>1.2102</mass>
+        <inertia>
+          <ixx>0.00234034</ixx>
+          <ixy>-1.76216e-08</ixy>
+          <ixz>-4.27752e-07</ixz>
+          <iyy>0.00234031</iyy>
+          <iyz>2.29729e-07</iyz>
+          <izz>0.00398999</izz>
+        </inertia>
+      </inertial>
+      <collision name="tire3_collision">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/tire3.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="tire3_visual">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/tire3.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name="shaft4" type="revolute">
+      <pose relative_to="base_link">0.26776 -0.26097 -0.066182 1.5708 -0 -3.14159</pose>
+      <parent>base_link</parent>
+      <child>tire4</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name="tire4">
+      <pose relative_to="shaft4">0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-5e-06 -5e-06 0.000494 0 -0 0</pose>
+        <mass>1.2102</mass>
+        <inertia>
+          <ixx>0.00234032</ixx>
+          <ixy>2.0905e-08</ixy>
+          <ixz>3.16917e-07</ixz>
+          <iyy>0.00234033</iyy>
+          <iyz>3.67846e-07</iyz>
+          <izz>0.00398999</izz>
+        </inertia>
+      </inertial>
+      <collision name="tire4_collision">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/tire4.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="tire4_visual">
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>package://myrobot/meshes/visual/tire4.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

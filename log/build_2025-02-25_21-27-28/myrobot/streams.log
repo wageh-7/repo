@@ -1,0 +1,47 @@
+[0.616s] Invoking command in '/home/men3m/repo/src/myrobot': PYTHONPATH=/home/men3m/repo/build/myrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/repo/install/myrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myrobot build --build-base /home/men3m/repo/build/myrobot/build install --record /home/men3m/repo/build/myrobot/install.log --single-version-externally-managed install_data
+[0.840s] running egg_info
+[0.841s] writing ../../build/myrobot/myrobot.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/myrobot/myrobot.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/myrobot/myrobot.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/myrobot/myrobot.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/myrobot/myrobot.egg-info/top_level.txt
+[0.843s] reading manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+[0.843s] writing manifest file '../../build/myrobot/myrobot.egg-info/SOURCES.txt'
+[0.843s] running build
+[0.844s] running build_py
+[0.844s] running install
+[0.844s] running install_lib
+[0.845s] running install_data
+[0.845s] copying launch/gz_simulator_launch.py -> /home/men3m/repo/install/myrobot/share/myrobot
+[0.845s] copying launch/launch.py -> /home/men3m/repo/install/myrobot/share/myrobot
+[0.845s] creating /home/men3m/repo/install/myrobot/share/myrobot/urdf
+[0.845s] copying urdf/Assem1.urdf -> /home/men3m/repo/install/myrobot/share/myrobot/urdf/
+[0.845s] copying urdf/robot.sdf -> /home/men3m/repo/install/myrobot/share/myrobot/urdf/
+[0.845s] creating /home/men3m/repo/install/myrobot/share/myrobot/world
+[0.846s] copying world/depot.sdf -> /home/men3m/repo/install/myrobot/share/myrobot/world/
+[0.846s] creating /home/men3m/repo/install/myrobot/share/myrobot/rviz
+[0.846s] creating /home/men3m/repo/install/myrobot/share/myrobot/meshes
+[0.846s] creating /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision
+[0.846s] copying meshes/collision/lider.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[0.846s] copying meshes/collision/tire4.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[0.846s] copying meshes/collision/base_link.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[0.846s] copying meshes/collision/tire3.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[0.846s] copying meshes/collision/tire2.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[0.847s] copying meshes/collision/camera.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[0.849s] copying meshes/collision/tire1.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/collision/
+[0.849s] creating /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual
+[0.850s] copying meshes/visual/lider.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[0.850s] copying meshes/visual/tire4.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[0.850s] copying meshes/visual/base_link.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[0.850s] copying meshes/visual/tire3.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[0.850s] copying meshes/visual/tire2.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[0.850s] copying meshes/visual/camera.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[0.853s] copying meshes/visual/tire1.STL -> /home/men3m/repo/install/myrobot/share/myrobot/meshes/visual/
+[0.853s] creating /home/men3m/repo/install/myrobot/share/myrobot/config
+[0.853s] copying config/gz_bridge.yaml -> /home/men3m/repo/install/myrobot/share/myrobot/config/
+[0.853s] running install_egg_info
+[0.854s] removing '/home/men3m/repo/install/myrobot/lib/python3.10/site-packages/myrobot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.854s] Copying ../../build/myrobot/myrobot.egg-info to /home/men3m/repo/install/myrobot/lib/python3.10/site-packages/myrobot-0.0.0-py3.10.egg-info
+[0.855s] running install_scripts
+[0.871s] writing list of installed files to '/home/men3m/repo/build/myrobot/install.log'
+[0.900s] Invoked command in '/home/men3m/repo/src/myrobot' returned '0': PYTHONPATH=/home/men3m/repo/build/myrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/men3m/repo/install/myrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myrobot build --build-base /home/men3m/repo/build/myrobot/build install --record /home/men3m/repo/build/myrobot/install.log --single-version-externally-managed install_data
